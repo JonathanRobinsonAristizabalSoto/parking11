@@ -1,5 +1,7 @@
 # 🚗 Parking App
 
+![Parking App Logo](img/parking.png)
+
 **Parking App** es una aplicación web diseñada para gestionar un parqueadero, permitiendo registrar vehículos, gestionar tarifas, ingresos, puestos, mensualidades y multas. La aplicación proporciona un dashboard con información general del parqueadero.
 
 ## ✨ Características
@@ -11,10 +13,6 @@
 - **Gestión de Puestos**: Administración de puestos de estacionamiento, incluyendo su estado y ubicación.
 - **Gestión de Mensualidades**: Registro de mensualidades para vehículos, incluyendo fechas de inicio y fin, y horarios de entrada y salida.
 - **Gestión de Multas**: Registro y administración de multas generadas por permanencia fuera del horario permitido.
-
-## 📁 Estructura del Proyecto
-
-El proyecto está organizado en los siguientes directorios y archivos:
 
 
 ## 🛠️ Instalación
