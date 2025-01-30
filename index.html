@@ -90,7 +90,8 @@
                                 Puesto:
                             </h3>
                             <input type="text" name="puesto" id="puesto"
-                                class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent text-center" readonly>
+                                class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent text-center"
+                                readonly>
                         </div>
                         <!-- Campo para la tarifa -->
                         <div>
@@ -99,8 +100,8 @@
                                 Tarifa:
                             </h3>
                             <input type="text" name="tarifa" id="tarifa"
-                                class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent text-center" readonly unselectable="on"
-                                style="user-select: none; pointer-events: none;">
+                                class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent text-center"
+                                readonly unselectable="on" style="user-select: none; pointer-events: none;">
                         </div>
                     </div>
                     <!-- Botones de acción -->
@@ -129,11 +130,9 @@
         <!-----------------------Seccion para buscar y liquidar vehiculo-------------------->
         <!---------------------------------------------------------------------------------->
 
-
-
-        <section class="flex justify-center bg-color1">
+        <section class="flex justify-center rounded-normal bg-color1"  >
             <div class="text-center">
-                <!-- Formulario de bsuqueda y liquidacion de vehículo -->
+                <!-- Formulario de búsqueda y liquidación de vehículo -->
                 <div class="my-6">
                     <h2 class="text-2xl font-bold text-center text-color7"><i class="fas fa-car mr-2 text-color6"></i>
                         LIQUIDAR VEHICULO</h2>
@@ -144,15 +143,14 @@
                         <i class="fas fa-search mr-2 text-color7"></i>Buscar Placa:
                     </label>
                     <input type="text" id="search-placa" name="search-placa" placeholder="Ingresa la patente o placa"
-                        class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent">
+                        class="w-11/12 p-2 border-2 border-color6 rounded-normal bg-transparent">
                 </div>
                 <button id="buscarVehiculo"
                     class="bg-color6 text-color1 text-2xl my-6 px-4 py-2 rounded-normal hover:bg-color7 focus:outline-none focus:ring-color6"
                     type="button" onclick="buscarVehiculo()">Buscar
                 </button>
                 <form action="" class="max-w-4xl mx-auto p-6 rounded-normal">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <!-- Selección del tipo de vehículo -->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
@@ -187,7 +185,6 @@
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-calendar-alt mr-2 text-color7"></i>
-
                                 Fecha de Ingreso:
                             </h3>
                             <input type="date" id="fechaIngreso"
@@ -202,9 +199,7 @@
                             <input type="time" id="horaIngreso"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent">
                         </div>
-                        <!----------------------------------->
                         <!-- Campo para el puesto asignado -->
-                        <!---------------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-parking mr-2 text-color7"></i>
@@ -213,9 +208,7 @@
                             <input type="text" name="puesto" id="puesto"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent" readonly>
                         </div>
-                        <!-------------------------->
                         <!-- Campo para la tarifa -->
-                        <!-------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-user mr-2 text-color7"></i>
@@ -224,21 +217,16 @@
                             <input type="text" name="tarifa" id="tarifa"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent">
                         </div>
-                        <!----------------------------------->
                         <!-- Campo para la fecha de salida -->
-                        <!----------------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-calendar-alt mr-2 text-color7"></i>
-
                                 Fecha de Salida:
                             </h3>
                             <input type="date" id="fechaSalida"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent">
                         </div>
-                        <!---------------------------------->
                         <!-- Campo para la hora de salida -->
-                        <!---------------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-clock mr-2 text-color7"></i>
@@ -247,9 +235,7 @@
                             <input type="time" id="horaSalida"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent">
                         </div>
-                        <!------------------------->
                         <!-- Campo para la multa -->
-                        <!------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-money-bill-wave mr-2 text-color7"></i> Multa:
@@ -257,13 +243,11 @@
                             <input type="text" name="multa" id="multa"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent" readonly>
                         </div>
-                        <!-- --------------------------------------------->
                         <!-- Campo para el tiempo promedio de ocupación -->
-                        <!-- -------------------------------------------->
                         <div>
                             <h3 class="font-semibold mb-1 text-2xl">
                                 <i class="fas fa-clock mr-2 text-color7"></i>
-                                Tiempo de Ocupación:
+                                Tiempo Ocupado:
                             </h3>
                             <input type="text" name="tiempoOcupacion" id="tiempoOcupacion"
                                 class="w-full p-2 border-2 border-color6 rounded-normal bg-transparent" readonly>
@@ -278,7 +262,7 @@
                             </button>
                         </div>
                         <!-- Campo para el total -->
-                        <div class="mt-8 text-center flex flex-col items-center">
+                        <div class="mt-2 text-center flex flex-col items-center">
                             <label for="total" class="font-semibold text-2xl mb-2">TOTAL:</label>
                             <input type="text" id="total" name="total"
                                 class="w-3/4 lg:w-1/3 p-4 border-2 border-color9 rounded-lg bg-transparent" readonly>
