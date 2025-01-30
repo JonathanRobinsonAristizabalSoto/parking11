@@ -2,12 +2,6 @@
 
 <img src="img/logo.png" alt="Parking App Logo" width="200">
 
-## Imágenes de la Aplicación
-
-<img src="img/1.png" alt="Parking App imagen 1" width="500">
-<img src="img/2.png" alt="Parking App imagen 2" width="500">
-<img src="img/3.png" alt="Parking App imagen 3" width="500">
-
 **Parking App** es una aplicación web diseñada para gestionar un parqueadero, permitiendo registrar vehículos, gestionar tarifas, ingresos, puestos, mensualidades y multas. La aplicación proporciona un dashboard con información general del parqueadero.
 
 ## ✨ Características
@@ -44,6 +38,12 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 3. Realiza los cambios necesarios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
 4. Sube los cambios a tu fork (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request en el repositorio original.
+
+## Imágenes de la Aplicación
+
+<img src="img/1.png" alt="Parking App imagen 1" width="500">
+<img src="img/2.png" alt="Parking App imagen 2" width="500">
+<img src="img/3.png" alt="Parking App imagen 3" width="500">
 
 ## 📄 Licencia
 
