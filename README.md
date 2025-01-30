@@ -4,9 +4,9 @@
 
 ## Imágenes de la Aplicación
 
-<img src="img/1.png" alt="Parking App imagen 1" width="200">
-<img src="img/2.png" alt="Parking App imagen 2" width="200">
-<img src="img/3.png.png" alt="Parking App imagen 3" width="200">
+<img src="img/1.png" alt="Parking App imagen 1" width="500">
+<img src="img/2.png" alt="Parking App imagen 2" width="500">
+<img src="img/3.png" alt="Parking App imagen 3" width="500">
 
 **Parking App** es una aplicación web diseñada para gestionar un parqueadero, permitiendo registrar vehículos, gestionar tarifas, ingresos, puestos, mensualidades y multas. La aplicación proporciona un dashboard con información general del parqueadero.
 
